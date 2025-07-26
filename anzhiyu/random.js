@@ -1,3 +1,3 @@
-var posts=["2025/07/19/article1/","2025/07/17/notice/"];function toRandomPost(){
+var posts=["2025/07/19/article1/","2025/07/17/notice/","2025/07/26/article2/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
